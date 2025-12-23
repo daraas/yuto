@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jasa Joki Makalah</title>
+  <style>
+    body {font-family: Arial, sans-serif; margin: 0; background: #f4f4f4;}
+    header {background: #1e293b; color: white; padding: 20px; text-align: center;}
+    section {padding: 30px; max-width: 900px; margin: auto; background: white; margin-top: 20px;}
+    h2 {color: #1e293b;}
+    .card {border: 1px solid #ddd; padding: 20px; margin-bottom: 20px; border-radius: 8px;}
+    footer {text-align: center; padding: 20px; background: #1e293b; color: white; margin-top: 30px;}
+    input, textarea, button {width: 100%; padding: 10px; margin-top: 10px;}
+    button {background: #2563eb; color: white; border: none; cursor: pointer;}
+    button:hover {background: #1d4ed8;}
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Jasa Joki Makalah & Karya Ilmiah</h1>
+  <p>Harga Fleksibel – Sesuai Penawaran Customer</p>
+</header>
+
+<section>
+  <h2>Tentang Kami</h2>
+  <p>Kami menyediakan jasa penulisan makalah, artikel ilmiah, laporan, dan tugas akademik lainnya. Harga ditentukan berdasarkan penawaran dari customer dan tingkat kesulitan tugas.</p>
+</section>
+
+<section>
+  <h2>Layanan Kami</h2>
+  <div class="card">Makalah Kuliah (SD–S3)</div>
+  <div class="card">Artikel Ilmiah & Jurnal</div>
+  <div class="card">Laporan PKL / PKP</div>
+  <div class="card">Proposal & Skripsi (Bab tertentu)</div>
+</section>
+
+<section>
+  <h2>Sistem Harga</h2>
+  <p><strong>Harga Ditentukan oleh Customer</strong></p>
+  <ul>
+    <li>Customer mengajukan harga</li>
+    <li>Kami melakukan review tingkat kesulitan</li>
+    <li>Negosiasi sampai deal</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Form Pemesanan</h2>
+  <form>
+    <label>Nama</label>
+    <input type="text" placeholder="Nama Anda" />
+
+    <label>Jenis Tugas</label>
+    <input type="text" placeholder="Makalah / Artikel / Laporan" />
+
+    <label>Deadline</label>
+    <input type="date" />
+
+    <label>Harga yang Ditawarkan (Rp)</label>
+    <input type="number" placeholder="Contoh: 150000" />
+
+    <label>Deskripsi Tugas</label>
+    <textarea rows="4" placeholder="Jelaskan detail tugas"></textarea>
+
+    <button type="submit">Kirim Penawaran</button>
+  </form>
+</section>
+
+<footer>
+  <p>&copy; 2025 Jasa Joki Makalah | Aman & Terpercaya</p>
+</footer>
+
+</body>
+</html>
+
